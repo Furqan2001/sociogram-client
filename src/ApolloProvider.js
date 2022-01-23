@@ -9,7 +9,7 @@ import {
 } from "@apollo/client";
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:5000/"
+  uri: "https://sociogram-server.herokuapp.com/"
 });
 
 const authLink = setContext(() => {
